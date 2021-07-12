@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: url(bg.jpg) center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section .scroll {
+    width: 100%;
+    display: flex;
+}
+
+section .scroll div {
+    color: #000000;
+    font-size: 4.5em;
+    background: #eeeeeeee;
+    white-space: nowrap;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    animation: scroll1 30s linear infinite;
+    animation-delay: -40s;
+}
+
+section .scroll div:nth-child(2) {
+    animation: scroll2 30s linear infinite;
+    animation-delay: -25s;
+}
+
+section .scroll:nth-child(even) div,
+section .scroll:nth-child(even) div:nth-child(2) {
+    animation-direction: reverse;
+}
+
+section .scroll div span {
+    font-weight: 100;
+}
+
+@keyframes scroll1 {
+    0% {
+        transform: translate(100%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-200%);
+    }
+} 
+
+section .scroll.text-1 {
+    transform: rotate(18deg) translateY(150px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+section .scroll.text-2 {
+    transform: rotate(-10deg) translateY(480px) translateX(-100px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+section .scroll.text-3 {
+    transform: rotate(-15deg) translateY(-100px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+section .scroll.text-4 {
+    transform: rotate(10deg) translateY(-250px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+section .scroll.text-5 {
+    transform: rotate(10deg) translateY(400px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+section .scroll.text-6 {
+    transform: rotate(5deg) translateY(150px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
