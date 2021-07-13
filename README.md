@@ -10,4 +10,4 @@ This project is all done using CSS Animations (although, I use SCSS). Since it u
 - [DEV Community Article](https://dev.to/meetscept3r/animated-news-ticker-19go)
 - [Online Tutorial's Video](https://youtu.be/3T4rD_P2nc8)
 
-Thanks for viewing this project!
+Feel free to fork this and thanks for viewing!
