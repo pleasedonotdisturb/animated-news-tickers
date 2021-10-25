@@ -7,7 +7,7 @@ Today, I wanna share to you a news ticker animation. News tickers (or crawler) a
 This project is all done using CSS Animations (although, I use SCSS). Since it uses lots of animation, it may cause some performance issues.
 
 - [Live Demo](https://codepen.io/Scept3r-ethan/full/yLbVNXR)
-- [DEV Community Article](https://dev.to/meetscept3r/animated-news-ticker-19go)
+- [The Practical DEV Article](https://dev.to/meetscept3r/animated-news-ticker-19go)
 - [Online Tutorial's Video](https://youtu.be/3T4rD_P2nc8)
 
 Feel free to fork this and thanks for viewing!
